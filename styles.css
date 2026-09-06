@@ -144,10 +144,21 @@ a { color: inherit; }
   gap: 72px;
   align-items: start;
 }
+.project-row {
+  margin-top: 96px;
+  padding-top: 96px;
+  border-top: 1px solid var(--line);
+}
+.project-reverse .project-visual { order: 2; }
+.project-reverse .project-copy { order: 1; }
 .project-visual {
   border: 1px solid var(--line);
   padding: 14px;
   background: #fff;
+}
+.project-visual img {
+  width: 100%;
+  height: auto;
 }
 .project-copy { padding-top: 18px; }
 .project-number {
@@ -163,7 +174,7 @@ a { color: inherit; }
   font-weight: 700;
   color: var(--gold);
 }
-.project-copy h3, .upcoming-card h3, .skill-card h3 {
+.project-copy h3, .skill-card h3 {
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
 }
@@ -179,24 +190,6 @@ a { color: inherit; }
 }
 .project-meta dt { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
 .project-meta dd { margin: 0; }
-
-.upcoming-grid {
-  margin-top: 72px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
-}
-.upcoming-card {
-  min-height: 280px;
-  padding: 28px;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-.upcoming-card > span { color: var(--muted); font-size: 13px; }
-.upcoming-card h3 { font-size: 26px; margin: 28px 0 12px; }
-.upcoming-card p:not(.tag) { color: var(--muted); }
-.upcoming-card small { display: inline-block; margin-top: 22px; color: var(--gold); }
 
 .about {
   display: grid;
@@ -246,9 +239,10 @@ footer { border-top: 1px solid var(--line); }
   .hero, .project, .about { grid-template-columns: 1fr; gap: 48px; }
   .hero { padding-block: 60px; }
   .portrait-wrap { justify-self: start; max-width: 330px; }
-  .upcoming-grid, .skills-grid { grid-template-columns: 1fr; }
   .about { gap: 34px; }
   .project-copy { padding-top: 0; }
+  .project-reverse .project-visual,
+  .project-reverse .project-copy { order: initial; }
 }
 
 @media (max-width: 520px) {
@@ -257,5 +251,6 @@ footer { border-top: 1px solid var(--line); }
   .hero h1 { font-size: 48px; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .project-meta div { grid-template-columns: 1fr; gap: 4px; }
+  .project-row { margin-top: 70px; padding-top: 70px; }
   .footer-inner { padding-block: 24px; flex-direction: column; align-items: flex-start; gap: 6px; }
 }
