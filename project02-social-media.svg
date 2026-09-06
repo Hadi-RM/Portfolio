@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f1e8"/><stop offset="1" stop-color="#e8dccb"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d8b46f"/><stop offset="1" stop-color="#9d7740"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <text x="70" y="82" font-family="Arial" font-size="18" letter-spacing="4" fill="#9d7740">KONZEPTPROJEKT · SOCIAL MEDIA</text>
+  <text x="70" y="145" font-family="Georgia" font-size="56" fill="#191714">AURÉLIA — Social Campaign</text>
+  <text x="70" y="184" font-family="Arial" font-size="21" fill="#6f675f">Instagram Feed · Carousel · Story</text>
+
+  <g transform="translate(70 245)" filter="url(#shadow)">
+    <rect width="320" height="520" rx="28" fill="#fffdf8"/>
+    <rect x="16" y="16" width="288" height="306" rx="20" fill="#ded0bd"/>
+    <circle cx="160" cy="160" r="72" fill="#efe6d9"/>
+    <circle cx="160" cy="160" r="39" fill="#fff" stroke="url(#gold)" stroke-width="13"/>
+    <circle cx="160" cy="160" r="18" fill="#f6f6f3" stroke="#c9c6c0" stroke-width="2"/>
+    <g stroke="#d2c7b7" stroke-width="2">
+      <path d="M160 142v36M142 160h36M148 148l24 24M172 148l-24 24"/>
+    </g>
+    <text x="32" y="360" font-family="Arial" font-size="12" letter-spacing="3" fill="#9d7740">NEW COLLECTION</text>
+    <text x="32" y="405" font-family="Georgia" font-size="34" fill="#191714">Quiet Luxury</text>
+    <text x="32" y="438" font-family="Arial" font-size="15" fill="#6f675f">Zeitlose Stücke für besondere Momente.</text>
+    <rect x="32" y="468" width="160" height="34" rx="17" fill="#191714"/>
+    <text x="53" y="491" font-family="Arial" font-size="13" fill="#fff">KOLLEKTION ENTDECKEN</text>
+  </g>
+
+  <g transform="translate(440 245)" filter="url(#shadow)">
+    <rect width="320" height="520" rx="28" fill="#1c1a18"/>
+    <rect x="16" y="16" width="288" height="306" rx="20" fill="#28231f"/>
+    <path d="M96 120 C145 62 225 78 242 145 C260 216 176 252 132 213 C91 177 64 158 96 120Z" fill="none" stroke="url(#gold)" stroke-width="7"/>
+    <circle cx="169" cy="164" r="24" fill="#f6f4ef" stroke="#c7c3ba" stroke-width="2"/>
+    <g stroke="#d9d5cd" stroke-width="1.6"><path d="M169 140v48M145 164h48M152 147l34 34M186 147l-34 34"/></g>
+    <text x="32" y="360" font-family="Arial" font-size="12" letter-spacing="3" fill="#d8b46f">DETAILS MATTER</text>
+    <text x="32" y="405" font-family="Georgia" font-size="34" fill="#fffaf2">Made to Shine</text>
+    <text x="32" y="438" font-family="Arial" font-size="15" fill="#d0c8be">Feine Formen. Klare Linie. Starke Wirkung.</text>
+    <line x1="32" y1="480" x2="286" y2="480" stroke="#5e554b"/>
+    <text x="32" y="503" font-family="Arial" font-size="12" fill="#d8b46f">AURÉLIA · DIAMONDS &amp; JEWELS</text>
+  </g>
+
+  <g transform="translate(810 245)" filter="url(#shadow)">
+    <rect width="250" height="520" rx="28" fill="#fffdf8"/>
+    <rect x="16" y="16" width="218" height="360" rx="20" fill="#e8dfd1"/>
+    <path d="M76 255 C91 175 143 100 176 73" fill="none" stroke="#a78049" stroke-width="5"/>
+    <circle cx="176" cy="73" r="29" fill="#fbfaf5" stroke="#b08a52" stroke-width="9"/>
+    <circle cx="176" cy="73" r="12" fill="#f4f4f1" stroke="#c2bfb8" stroke-width="1.5"/>
+    <text x="28" y="412" font-family="Arial" font-size="11" letter-spacing="3" fill="#9d7740">INSTAGRAM STORY</text>
+    <text x="28" y="452" font-family="Georgia" font-size="29" fill="#191714">Ein Moment.</text>
+    <text x="28" y="485" font-family="Georgia" font-size="29" fill="#191714">Für immer.</text>
+  </g>
+
+  <text x="70" y="830" font-family="Arial" font-size="16" fill="#6f675f">Konzept · Art Direction · Layout · Typografie · Social-Media-Formate</text>
+</svg>
